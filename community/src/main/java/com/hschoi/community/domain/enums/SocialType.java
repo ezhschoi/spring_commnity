@@ -5,7 +5,7 @@ public enum SocialType {
 	GOOGLE("google"),
 	KAKAO("kakao");
 	
-	private final String ROLE_PREFIX = "ROle_";
+	private final String ROLE_PREFIX = "Role_";
 	private String name;
 
 	SocialType(String name) {

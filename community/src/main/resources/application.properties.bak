@@ -1,0 +1,26 @@
+spring.jpa.hibernate.ddl-auto=create
+spring.h2.console.enabled=true
+spring.h2.console.path=/console
+spring.devtools.livereload.enabled=true
+
+facebook.client.clientId=clientIdTest
+facebook.client.clientSecret=clientSecretTest
+facebook.client.accessTokenUri=https://graph.facebook.com/oauth/access_token
+facebook.client.userAuthorizationUri=https://www.facebook.com/dialog/oauth?display=popup
+facebook.client.toketName=oauth_token
+facebook.client.authentificationScheme=query
+facebook.client.clientAuthenticationScheme:form
+facebook.client.scope=email
+facebook.resource.userInfoUri=https://graph.facebook.com/me?fields=id,name,email,link
+
+google.client.clientId=clientIdTest
+google.client.clientSecret=clientSecretTest
+google.client.accessTokenUri=https://accounts.google.com/o/oauth2/token
+google.client.userAuthorizationUri=https://accounts.google.com/o/oauth2/auth
+google.client.scope=email, profile
+google.resource.userInfoUri=https://www.googleapis.com/oauth2/v2/userinfo
+
+kakao.client.clientId=clientIdTest
+kakao.client.accessTokenUri=https://kauth.kakao.com/oauth/token
+kakao.client.userAuthorizationUri=https://kauth.kakao.com/oauth/authorize
+kakao.resource.userInfoUri=https://kapi.kakao.com/v1/user/me
